@@ -41,7 +41,7 @@
                         <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                     @endif
                     @else
-                        <a class="nav-link" href="{{ route('books.create') }}">New Book</a>
+                        <a class="nav-link" href="{{ route('books.create') }}">Neue Zusammenfassung</a>
                         <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
                         </a>
